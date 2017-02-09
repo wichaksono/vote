@@ -1,4 +1,6 @@
 <?php
+// koneksi database
+require 'config.php';
 require 'vote-count.php';
 require 'functions.php';
 ?>
