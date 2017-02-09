@@ -1,6 +1,4 @@
 <?php
-require 'config.php';
-
 if (isset($_GET['nomer']) && ! empty($_GET['nomer'])) {
     
     $nomerVote = $_GET['nomer'];
