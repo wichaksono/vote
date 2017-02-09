@@ -1,9 +1,9 @@
 <?php
+require_once 'config.php';
 if (isset($_GET['nomer']) && ! empty($_GET['nomer'])) {
     
     $nomerVote = $_GET['nomer'];
-    // $dateTime = date('mm/dd/yy H:M');
-
+    // sql untuk menambahkan vote kedatabase
     $sql = "INSERT INTO voting (id_opsi, date_create) VALUES ('$nomerVote', NOW()) ";
 
     $insert = $connect->query($sql);
