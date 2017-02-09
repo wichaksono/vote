@@ -1,10 +1,6 @@
 <?php
 require 'vote-count.php';
 require 'functions.php';
-
-$voteGambarSatu = '0%'; 
-$voteGambarDua  = '0%'; 
-// getPolling();
 ?>
 
 <html>
